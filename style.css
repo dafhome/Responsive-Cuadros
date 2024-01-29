@@ -51,43 +51,23 @@ h1{
 .foto{
     width: 25vw;
     height: 20vw;
-}
-#foto1{
-    background-image:url(/images/sonrisa-alas-flameantes-miro.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
+}
+#foto1{
+    background-image:url(/images/sonrisa-alas-flameantes-miro.jpg) ; 
 }
 #foto2{
     background-image:url(/images/azul-2-joan-miro.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);;
-
 }
 #foto3{
     background-image:url(/images/mujer-pajaros-amanecer-miro-2.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);;
-
-
 }
-
-
-
 .description4{
     display: none;
 }
-
-
-
-
-
-
 @media screen and (orientation: portrait){
     header{
         margin-bottom: 20px;
@@ -105,7 +85,6 @@ h1{
         font-weight: bolder;
         color: red;
         text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
-
     }
     .cuadros-board{
         flex-direction: column;
