@@ -1,0 +1,131 @@
+*{
+    margin:0;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    hyphens: auto;
+}
+h1{
+    font-family: 'Bitter', serif;
+    margin-bottom: 1vw;
+    font-size: 30px
+}
+
+.titulo{
+    font-size: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.description1, .description2{
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 20px;
+}
+.description2{
+    font-weight: bold;
+
+}
+.cuadros-board{
+    margin-left: 4vw;
+    margin-right: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 50px;
+    background-color: rgba(211, 211, 211, 0.123);
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.cuadros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    
+}
+
+.foto{
+    width: 25vw;
+    height: 20vw;
+}
+#foto1{
+    background-image:url(/images/sonrisa-alas-flameantes-miro.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);;
+}
+#foto2{
+    background-image:url(/images/azul-2-joan-miro.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);;
+
+}
+#foto3{
+    background-image:url(/images/mujer-pajaros-amanecer-miro-2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);;
+
+
+}
+
+
+
+.description4{
+    display: none;
+}
+
+
+
+
+
+
+@media screen and (orientation: portrait){
+    header{
+        margin-bottom: 20px;
+    }
+    .titulo {
+        font-size:50px;
+        font-weight:unset
+
+    }
+    .description1{
+        display: none;
+    }
+    .description2{
+        font-size: 35px;
+        font-weight: bolder;
+        color: red;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
+
+    }
+    .cuadros-board{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+        background-color: white;
+    }
+    .cuadros{
+        gap: 30px;
+    }
+    .description3{
+        display: none;
+    }
+    .description4{
+        display:contents;
+    }
+    .foto{
+        width: 49vw;
+        height: 41vw;
+    }
+
+}
